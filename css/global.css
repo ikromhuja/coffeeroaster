@@ -1,0 +1,60 @@
+
+
+
+
+*
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Normalize */
+h1 {
+    margin: 0;
+}
+
+img {
+    display: flex;
+    object-fit: cover;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1340px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
