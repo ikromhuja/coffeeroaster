@@ -1,4 +1,26 @@
+/* fraunces-900 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2');
+  }
 
+
+@font-face {
+    font-display: swap; 
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'); 
+  }
+ 
+  @font-face {
+    font-display: swap;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2');
 
 
 
